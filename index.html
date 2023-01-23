@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
+        <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li> <a href="#home"> Home </a></li>
+                <li> <a href="#about"> About Me </a></li>
+                <li> <a href="#portfolio"> Portfolio </a></li>
+                <li> <a href="#services"> Services </a></li>
+                <li> <a href="#contact"> Contact Me </a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="main">
+                <h2 class="intro"> I'm... </h2>
+                <h1 class="headings"> <i> Gokul Prasad </i></h1>
+                <button class="btn"> HIRE ME  </button>
+            </div>
+        </section>
+
+       <section id="about">
+        <h1 class="headings"> ABOUT ME </h1>
+        <div id="pic">
+            <img src="Image/profile.jpeg" alt="">
+            <div id="intro">
+                <h2> GOKUL PRASAD </h2>
+                <p> To work as a Software Engineer applying my knowledge in the field of testing, designing, and maintenance to cater to the specific needs of the people. I wish to work in a team of motivated individuals who wish to work towards the advancement of the company and its goals. </p>
+            </div>
+        </div>
+       </section>
+
+       <section id="portfolio">
+            <h1 class="headings"> PORTFOLIO </h1>
+            <div class="gallery">
+                <img src="Portfolio/img1.jpg" alt="">
+                <img src="Portfolio/img2.jpg" alt="">
+                <img src="Portfolio/img3.jpg" alt="">
+                <img src="Portfolio/img4.jpg" alt="">
+                <img src="Portfolio/img5.jpg" alt="">
+                <img src="Portfolio/img6.jpg" alt="">
+            </div>
+       </section>
+
+       <section id="services">
+            <h1 class="headings"> SERVICES </h1>
+            <div class="rows">
+                <div class="box">
+                    <img src="Services/web.png" alt="">
+                    <h1 class="headings"> Website Design </h1>
+                    <p> Web design is a multi-disciplinary job, where you'd need not only knowledge in design (typography, color theory) but also skills in developing a website (HTML, CSS, JavaScript). Some web designers are also involved in interaction design when they code for animations and interactions using CSS and/or JavaScript.</p>
+                </div>
+                <div class="box">
+                    <img src="Services/python.png" alt="">
+                    <h1 class="headings"> Python Developer </h1>
+                    <p> A Python Developer is responsible for coding, designing, deploying, and debugging development projects, typically on the server-side (or back-end). They may, however, also help organizations with their technological framework.</p>
+                </div>
+                <div class="box">
+                    <img src="Services/graphic.png" alt="">
+                    <h1 class="headings"> Graphic Designer </h1>
+                    <p> A Graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed, or electronic media, such as brochures and advertising.</p>
+                </div>
+            </div>
+       </section>
+
+       <section id="contact">
+            <h1 class="headings"> CONTACT </h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                <input type="text" name="email" class="input" placeholder="Enter Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+       </section>
+    </body>
+</html>
